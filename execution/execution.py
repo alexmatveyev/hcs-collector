@@ -171,7 +171,7 @@ def ondemand_rhel(path_to_csv_dir, csv_files_list):
         rhel_vdc = stage_rhel_vdc
         stage_rhel_vdc = 0
 
-    print("MMM Concurrent RHEL, referrent to ............: {}".format(CURRENT_TIMEFRAME))
+    print("Max Concurrent RHEL, referrent to ............: {}".format(CURRENT_TIMEFRAME))
     print("On-Demand, Physical Node .....................: {}".format(rhel_physical))
     print("On-Demand, Virtual Node ......................: {}".format(rhel_virtual))
     print("Virtual Data Center, Virtual Node ............: {}".format(rhel_vdc))
